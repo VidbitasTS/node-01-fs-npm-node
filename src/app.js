@@ -1,12 +1,16 @@
 'use strict';
-console.log('app.js');
+//  ES 6
 
-import { minutes } from '../helper';
+// import { minutes } from 'helper';
 
-const name = 'James';
+const { minutes, dienos } = require('./helper');
 
-const fulName = `${name} Bond`;
+// console.log('app.js');
+// const name = 'James';
 
-console.log('fulName ===', fulName);
+// const fulName = `${name} Bond`;
+
+// console.log('fulName ===', fulName);
 
 console.log(minutes(12));
+console.log(dienos(10));
