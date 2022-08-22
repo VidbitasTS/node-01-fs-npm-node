@@ -1,25 +1,28 @@
 {
-  "name": "01-fs-npm-node",
-  "version": "1.0.0",
-  "description": "First Node project",
-  "main": "src/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VidbitasTS/node-01-fs-npm-node.git"
-  },
-  "keywords": [
-    "Node"
-  ],
-  "author": "Vidmantas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VidbitasTS/node-01-fs-npm-node/issues"
-  },
-  "homepage": "https://github.com/VidbitasTS/node-01-fs-npm-node#readme",
-  "dependencies": {
-    "casual": "^1.6.2"
-  }
+    "name": "01-fs-npm-node",
+    "version": "1.0.0",
+    "description": "First Node project",
+    "main": "src/app.js",
+    "scripts": {
+        "dev": "lite-server ite-server --baseDir=\"public\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VidbitasTS/node-01-fs-npm-node.git"
+    },
+    "keywords": [
+        "Node"
+    ],
+    "author": "Vidmantas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VidbitasTS/node-01-fs-npm-node/issues"
+    },
+    "homepage": "https://github.com/VidbitasTS/node-01-fs-npm-node#readme",
+    "dependencies": {
+        "casual": "^1.6.2"
+    },
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
 }
