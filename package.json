@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/VidbitasTS/node-01-fs-npm-node/issues"
   },
-  "homepage": "https://github.com/VidbitasTS/node-01-fs-npm-node#readme"
+  "homepage": "https://github.com/VidbitasTS/node-01-fs-npm-node#readme",
+  "dependencies": {
+    "casual": "^1.6.2"
+  }
 }
